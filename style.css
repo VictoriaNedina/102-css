@@ -55,4 +55,24 @@ input::placeholder{
     text-align: center;
 }
 :focus{
-background-color: blueviolet;
+background-color: rgb(182, 124, 236);
+}
+footer input, button, p{
+    color: seagreen;
+}
+footer{
+height: 100px;
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(38, 143, 120, 0.596);
+justify-content: space-around;
+}
+.img{
+    width: 40px;
+    height: 40px;
+}
+header{
+    height: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTri9zFGw_PsLm0sfiGP0M68Xl9EkRRD8biY2I9q_lsZZBH_pAW);
+}
